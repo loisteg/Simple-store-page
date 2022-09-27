@@ -1,0 +1,33 @@
+@import "../../styles/mixins/breakpoint";
+
+.card {
+  width: 100%;
+}
+
+.cardImage {
+  width: 100%;
+}
+
+.cardHeaderWrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.cardPrice {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}

@@ -1,0 +1,30 @@
+@import "../../styles/mixins/breakpoint";
+
+.listCells {
+  grid-column: 1/3;
+  justify-self: flex-end;
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listCellsItem {
+  height: 100%;
+  width: 20px;
+  color: #333333;
+}
+
+@include small-tablet {
+  .listCells {
+    grid-column: auto;
+    place-self: center;
+    order: 2;
+  }
+}
+
+@include mobile {
+  .listCells {
+    display: none;
+  }
+}

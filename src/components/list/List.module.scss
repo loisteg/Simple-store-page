@@ -1,0 +1,41 @@
+@import "../../styles/mixins/breakpoint";
+
+.list {
+  position: relative;
+  display: grid;
+  gap: 20px;
+}
+
+.list2 {
+  grid-template: auto / repeat(2, 1fr);
+}
+
+.list4 {
+  grid-template: auto / repeat(4, 1fr);
+}
+
+.listNoItems {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+@include small-tablet {
+  .list {
+    order: 3;
+  }
+}
+
+@include mobile {
+  .list2 {
+    grid-template: auto / repeat(2, 1fr);
+  }
+
+  .list4 {
+    grid-template: auto / repeat(2, 1fr);
+  }
+}

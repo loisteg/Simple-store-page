@@ -1,0 +1,129 @@
+{
+  "stuff": [
+    {
+      "id": 1,
+      "title": "Брюки",
+      "category": "pants",
+      "sale": false,
+      "bestseller": true,
+      "price": "900",
+      "imageAlt": "Pants"
+    },
+    {
+      "id": 2,
+      "title": "Сукня",
+      "category": "dresses",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Dress"
+    },
+    {
+      "id": 3,
+      "title": "Топ",
+      "category": "sweatshirts",
+      "sale": false,
+      "bestseller": true,
+      "price": "900",
+      "imageAlt": "Top"
+    },
+    {
+      "id": 4,
+      "title": "Футболка",
+      "category": "shirts",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Shirt"
+    },
+    {
+      "id": 5,
+      "title": "Брюки",
+      "category": "pants",
+      "sale": false,
+      "bestseller": true,
+      "price": "900",
+      "imageAlt": "Pants"
+    },
+    {
+      "id": 6,
+      "title": "Сукня",
+      "category": "dresses",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Dress"
+    },
+    {
+      "id": 7,
+      "title": "Топ",
+      "category": "sweatshirts",
+      "sale": false,
+      "bestseller": true,
+      "price": "900",
+      "imageAlt": "Top"
+    },
+    {
+      "id": 8,
+      "title": "Футболка",
+      "category": "shirts",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Shirt"
+    },
+    {
+      "id": 9,
+      "title": "Брюки",
+      "category": "pants",
+      "sale": false,
+      "bestseller": true,
+      "price": "900",
+      "imageAlt": "Pants"
+    },
+    {
+      "id": 10,
+      "title": "Сукня",
+      "category": "dresses",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Dress"
+    },
+    {
+      "id": 11,
+      "title": "Топ",
+      "category": "sweatshirts",
+      "sale": false,
+      "bestseller": true,
+      "price": "900",
+      "imageAlt": "Top"
+    },
+    {
+      "id": 12,
+      "title": "Футболка",
+      "category": "shirts",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Shirt"
+    },
+    {
+      "id": 13,
+      "title": "Брюки",
+      "category": "pants",
+      "sale": true,
+      "bestseller": false,
+      "price": "900",
+      "imageAlt": "Pants"
+    }
+  ],
+  "categories": [
+    { "link": "pants", "title": "Брюки" },
+    { "link": "shirts", "title": "Футболки" },
+    { "link": "jeans", "title": "Джинси" },
+    { "link": "dresses", "title": "Сукні" },
+    { "link": "sweatshirts", "title": "Топи і світшоти" },
+    { "link": "outerwear", "title": "Верхній одяг" }
+  ]
+}
